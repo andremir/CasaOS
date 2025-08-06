@@ -23,8 +23,8 @@ def get_personalized_greeting(name):
     return f"Hello {name}"
 
 # Create Gradio interface
-with gr.Blocks(title="CasaOS API Interface", theme=gr.themes.Soft()) as demo:
-    gr.Markdown("# CasaOS API Interface")
+with gr.Blocks(title="CasaOS API Interface v2", theme=gr.themes.Soft()) as demo:
+    gr.Markdown("# CasaOS API Interface v2")
     gr.Markdown("A user-friendly interface for the CasaOS API endpoints")
     
     with gr.Tab("Hello World"):
